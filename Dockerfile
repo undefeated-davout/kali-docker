@@ -6,5 +6,8 @@ RUN apt update && apt upgrade -y && \
     kali-tools-information-gathering \
     kali-tools-web \
     kali-tools-passwords \
-    kali-tools-wireless && \
-  apt autoremove
+    kali-tools-wireless \
+    dnsutils \
+    iputils-ping \
+    net-tools \
+  && apt autoremove
