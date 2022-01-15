@@ -10,4 +10,4 @@ RUN apt update && apt upgrade -y && \
     dnsutils \
     iputils-ping \
     net-tools \
-  && apt autoremove
+  && apt autoremove && apt autoclean
