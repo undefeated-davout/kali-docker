@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  kali:
+    build: .
+    # image: undefeateddavout/kali-docker
+    container_name: kali
+    tty: true
+    volumes:
+      - ./share:/share
