@@ -22,6 +22,10 @@ jobs:
         if: success()
         run: docker build -t undefeateddavout/kali-docker:latest .
 
+      - name: image確認
+        if: success()
+        run: docker images
+
       - name: Docker Hubにpush
         if: success()
         uses: actions-hub/docker@master
