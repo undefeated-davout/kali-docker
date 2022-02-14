@@ -11,3 +11,7 @@ RUN apt update && apt upgrade -y && \
     iputils-ping \
     net-tools \
   && apt autoremove && apt autoclean
+
+# alias
+RUN echo "alias ll='ls -lahF'" >> ~/.bash_aliases
+
