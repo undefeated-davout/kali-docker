@@ -28,4 +28,3 @@ RUN rm -rf ./${CONFIG_DIR}/
 RUN locale-gen ja_JP.UTF-8
 
 WORKDIR /share
-
