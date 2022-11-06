@@ -6,10 +6,12 @@
 
 ```.bash
 docker compose up -d
+# or
+docker run -td --name kali undefeateddavout/kali-docker
 ```
 
 ## ログイン
 
 ```.bash
-docker exec -it kali /bin/bash --login
+docker exec -it kali /bin/bash
 ```
